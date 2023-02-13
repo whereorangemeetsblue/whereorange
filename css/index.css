@@ -1,0 +1,219 @@
+#smooth-content {
+  overflow: visible;
+  width: 100%;
+  height: 700vh;
+  /* height: calc(500vh + 3060px); */
+  /* 전체 높이 */
+}
+
+.mb {
+  display: none;
+}
+
+/* section01 */
+#section01 {
+  background-color: pink;
+  height: 100vh;
+}
+
+.trigger01 {
+  height: 4000px;
+}
+
+.fix01 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.whereorangemeetsblue {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.whereorangemeetsblue ul {
+  display: flex;
+}
+
+.whereorangemeetsblue li {
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .pc {
+    display: none;
+  }
+
+  .mb {
+    display: block;
+  }
+
+  #smooth-content {
+    overflow: visible;
+    width: 100%;
+    height: 600vh;
+  }
+
+  #section06 {
+    height: 100vh;
+    background-color: lightgrey;
+  }
+
+  #section06 .whereorangeneetsblue01 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section06 .where{
+    display:flex;
+  }
+
+  #section06 .orange{
+    display:flex;
+  }
+
+  #section06 .meets{
+    display:flex;
+  }
+
+  #section06 .blue{
+    display:flex;
+  }
+
+  #section06 .poster01 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+
+  #section06 .poster02 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(20deg);
+  }
+
+  #section06 .poster03 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(30deg);
+  }
+
+  #section07 {
+    height: 100vh;
+    background-color: red;
+  }
+
+  #section08 {
+    height: 100vh;
+    background-color: white;
+
+  }
+
+  #section08 .profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section08 .hellothere {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(0,-50%);
+
+  }
+
+  #section09 {
+    height: 100vh;
+    background-color: yellow;
+  }
+
+  #section09 .project {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%) scale(60%);
+  }
+
+  #section09 .project li+li {
+    margin-top: 30px;
+  }
+
+  #section10 {
+    height: 100vh;
+    background-color: pink;
+  }
+
+  #section10 .flower  {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+  }
+  
+  #section10 .a  {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+
+  #section10 .bout  {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+  }
+
+  #section10 .aboutme  {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+
+  #section11 {
+    height: 100vh;
+    background-color: rgb(82, 197, 82);
+  }
+  
+  #section11 .star {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    transform:scale(150%);  
+  }
+
+  #section11 .brand {
+   position: absolute;
+   top: 250px;
+   left: -50px;
+   transform:scale(70%);
+  }
+
+
+  #section12 {
+    height: 100vh;
+    background-color: lightblue;
+  }
+
+  #section12 .contact {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #section12 .email {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(80%);
+  }
+
+}
